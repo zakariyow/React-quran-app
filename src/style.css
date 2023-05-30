@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(136,73,14);
+    background: linear-gradient(88deg, rgba(196, 14, 14, 0.5) 0%, rgba(116, 7, 7, 0.5) 99%);
+    overflow: hidden;
+}
+
+.bg-red{
+    background: linear-gradient(rgba(196, 14, 14, 0.5),rgba(116, 7, 7, 0.5))
+	 ,url(/img//bg1.jpg);
+    
+    color: #fff;
+   
+    /* object-fit: cover; */
+}
+.sub-bg{
+    background: rgb(136,73,14);
+    background: linear-gradient(88deg, rgba(196, 14, 14, 0.5) 0%, rgba(116, 7, 7, 0.5) 99%);
+     box-shadow: 6px 6px 12px #c5c5c5,
+				-6px -6px 12px #ffffff;
+}
+.bg-red ul {
+    list-style-type: none;
+}
+
+.scroll{
+    height: 100%;
+    overflow: auto;
+}
+
+.curser{
+    cursor: pointer;
+}
+
+.active{
+    color: #ffff00 !important;
+}
